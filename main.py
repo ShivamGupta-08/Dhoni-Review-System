@@ -1,6 +1,6 @@
 #how to auto clip the video
 #ptz control
-import tkinter
+import tkinter 
 from tkinter.constants import ANCHOR, NW
 import PIL.Image,PIL.ImageTk
 import cv2
@@ -8,6 +8,7 @@ from functools import partial
 import threading
 import imutils
 import time
+print("Welcom to drs system")
 stream = cv2.VideoCapture("clip.mp4")
 flag = True
 def play(speed):
